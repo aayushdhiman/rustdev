@@ -12,7 +12,7 @@ fn factorial(num: u64) -> u64 {
 
 // input handling, parsing, etc.
 fn main() {
-    println!("What should I find the factorial of? ");
+    print!("What should I find the factorial of? ");
 
     // create (new) mutable string
     let mut input = String::new();
